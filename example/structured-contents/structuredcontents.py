@@ -40,7 +40,7 @@ def main():
         )
 
         try:
-            structured_contents = api_client.get_structured_contents("Squirrel", request)
+            structured_contents = api_client.get_structured_contents("Strategy", request)
         except Exception as e:
             logger.fatal(f"Failed to get structured contents: {e}")
             return
